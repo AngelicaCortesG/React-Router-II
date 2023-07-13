@@ -6,15 +6,17 @@ export default function Navigation() {
   const setActiveClass = ({ isActive }) => (isActive ? "active" : "inActive");
   return (
     <>
-      <Navbar bg="primary" variant="primary">
+      <Navbar bg="secondary" variant="secondary">
         <Container className="justify-content-start">
+        <Navbar.Brand className="ms-auto text-white">         
+        <img src="icon.svg" width="40" height="40" className="d-inline-block align-top" alt="Logo" />
+          </Navbar.Brand>
           <NavLink to="/" className={setActiveClass}>
         Home
           </NavLink>
-          <NavLink to="/Pokemones" className={setActiveClass}>
-          Pokemones
+          <NavLink to="/pokemon" className={setActiveClass}>
+          <strong>Pokemones</strong>
           </NavLink>
-          <Navbar.Brand className="ms-auto text-white"><strong>Pokemones</strong></Navbar.Brand>
         </Container>
       </Navbar>
     </>

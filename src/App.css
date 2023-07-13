@@ -38,7 +38,7 @@
 }
 
 .active{
-  color: black;
+  color: red;
   text-decoration: none;
   margin: 3px;
 }
@@ -49,26 +49,18 @@
   text-decoration: none;
   margin: 3px;
 }
-
-.custom-card {
-  background-color: gray;
-  border: 2px solid gray;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+Form{
+  margin: 20px;
 }
 
-.custom-card .card-title {
-  font-size: 18px;
-  font-weight: bold;
+Button{
+  margin: 20px;
 }
 
-.custom-card .card-text {
-  color: #555;
-  margin-bottom: 10px;
+.my-card {
+  margin: 30px
 }
 
-.custom-card .card-img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.custom-list li {
+  margin-left: 0;
 }
